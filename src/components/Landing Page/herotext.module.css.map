@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACvB;;AACD,AAAA,KAAK,CAAC;EACJ,WAAW,EAAE,WAAW;EACxB,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "herotext.module.scss"
+    ],
+    "names": [],
+    "file": "herotext.module.css"
+}

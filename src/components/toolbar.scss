@@ -1,0 +1,53 @@
+h1 {
+  color: #f1f3f6;
+}
+.canvas-div {
+  background: #fff;
+}
+.toolbar {
+  background: #fff;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 260px;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  box-shadow: 4px 7px 56px 14px rgba(16, 16, 16, 0.35);
+  button {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 4px;
+    color: #102a43;
+    background: none;
+    margin: 10px 0;
+    &:hover {
+      cursor: pointer;
+      background: #d9e2ec;
+    }
+  }
+  .active {
+    background: #d9e2ec;
+  }
+  .fill {
+    position: relative;
+  }
+  .colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #fff;
+    padding: 0 12px;
+    border-radius: 4px;
+    top: 0;
+    left: -130px;
+  }
+}

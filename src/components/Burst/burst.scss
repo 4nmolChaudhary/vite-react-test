@@ -1,0 +1,42 @@
+button {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Slimlines';
+    font-size: 3rem;
+    z-index: 2;
+  }
+  svg {
+    fill: #867ae9;
+  }
+  &:hover {
+    cursor: pointer;
+    span {
+      color: #000;
+    }
+    svg {
+      fill: #fff;
+    }
+  }
+}
+.burst {
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

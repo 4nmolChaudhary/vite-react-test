@@ -1,0 +1,113 @@
+$black: rgba(0, 0, 0, 1);
+$blue-violet: rgba(133, 67, 255, 1);
+$light-slate-gray: rgba(145, 145, 145, 1);
+$royal-blue: rgba(68, 54, 241, 1);
+$white: rgba(255, 255, 255, 1);
+$white-smoke: rgba(247, 247, 247, 1);
+$error-red: #fe2946;
+
+.form {
+  background-color: $white;
+  border-radius: 25px;
+  padding: 22px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.login {
+  font-family: 'Google Sans';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  color: $black;
+  text-align: right;
+  margin-bottom: 21px;
+}
+@mixin input {
+  background-color: $white-smoke;
+  margin-bottom: 21px;
+  border-radius: 12px;
+  padding: 21px 22px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-family: 'Google Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: $light-slate-gray;
+  width: 80%;
+}
+.input {
+  @include input();
+}
+.username {
+  font-family: 'Google Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: $light-slate-gray;
+}
+.inputTwo {
+  background-color: $white-smoke;
+  border: none;
+  outline: none;
+  font-family: 'Google Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: $light-slate-gray;
+  width: 80%;
+}
+.button {
+  background: linear-gradient(101deg, $royal-blue -3%, $blue-violet 109%);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  border: none;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+  }
+  margin-top: 20px;
+}
+.inputWrapper {
+  @include input();
+  position: relative;
+}
+.loginTwo {
+  font-family: 'Google Sans';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  color: $white;
+}
+.eyeOff {
+  position: absolute;
+  right: 22px;
+  top: 21px;
+  border: none;
+  outline: none;
+  background-color: $white-smoke;
+  svg {
+    stroke: $light-slate-gray;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.error {
+  position: absolute;
+  right: 22px;
+  top: 21px;
+  border: none;
+  outline: none;
+  svg {
+    stroke: $error-red;
+  }
+}

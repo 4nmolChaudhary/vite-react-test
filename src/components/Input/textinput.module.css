@@ -1,0 +1,56 @@
+.wrapper {
+  width: 80%;
+  border: 2px solid #fe2946;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.inputWrapper {
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  padding: 20px 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: none;
+  outline: none;
+  line-height: normal;
+  color: #919191;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  background-color: #f7f7f7;
+  border: none;
+  outline: none;
+  font-family: 'Google Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: #919191;
+  width: 80%;
+}
+
+.error svg {
+  stroke: #fe2946;
+}
+
+.errorDiv {
+  font-family: 'Google Sans';
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+  color: white;
+  background: #fe2946;
+  padding: 8px 16px;
+}
+/*# sourceMappingURL=textinput.module.css.map */

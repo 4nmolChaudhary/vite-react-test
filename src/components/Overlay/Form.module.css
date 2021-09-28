@@ -1,0 +1,150 @@
+.form {
+  background-color: white;
+  border-radius: 25px;
+  padding: 22px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+}
+
+.login {
+  font-family: 'Google Sans';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  color: black;
+  text-align: right;
+  margin-bottom: 21px;
+}
+
+.input {
+  background-color: #f7f7f7;
+  margin-bottom: 21px;
+  border-radius: 12px;
+  padding: 21px 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  outline: none;
+  font-family: 'Google Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: #919191;
+  width: 80%;
+}
+
+.username {
+  font-family: 'Google Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: #919191;
+}
+
+.inputTwo {
+  background-color: #f7f7f7;
+  border: none;
+  outline: none;
+  font-family: 'Google Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: #919191;
+  width: 80%;
+}
+
+.button {
+  background: linear-gradient(101deg, #4436f1 -3%, #8543ff 109%);
+  border-radius: 15px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.inputWrapper {
+  background-color: #f7f7f7;
+  margin-bottom: 21px;
+  border-radius: 12px;
+  padding: 21px 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  outline: none;
+  font-family: 'Google Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: #919191;
+  width: 80%;
+  position: relative;
+}
+
+.loginTwo {
+  font-family: 'Google Sans';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+}
+
+.eyeOff {
+  position: absolute;
+  right: 22px;
+  top: 21px;
+  border: none;
+  outline: none;
+  background-color: #f7f7f7;
+}
+
+.eyeOff svg {
+  stroke: #919191;
+}
+
+.eyeOff:hover {
+  cursor: pointer;
+}
+
+.error {
+  position: absolute;
+  right: 22px;
+  top: 21px;
+  border: none;
+  outline: none;
+}
+
+.error svg {
+  stroke: #fe2946;
+}
+/*# sourceMappingURL=Form.module.css.map */

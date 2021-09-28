@@ -1,0 +1,28 @@
+@import '../../sass/variables';
+@import '../../sass/mixins';
+
+.wrapper {
+  width: 80%;
+  border: 2px solid $error-red;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.inputWrapper {
+  @include inputWrapper();
+  position: relative;
+}
+.input {
+  @include input();
+}
+.error {
+  @include errorIcon();
+}
+.errorDiv {
+  font-family: 'Google Sans';
+  font-size: 11px;
+  font-weight: 500;
+  line-height: normal;
+  color: $white;
+  background: $error-red;
+  padding: 8px 16px;
+}
